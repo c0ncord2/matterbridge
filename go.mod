@@ -32,6 +32,8 @@ require (
 	github.com/matterbridge/gozulipbot v0.0.0-20190212232658-7aa251978a18
 	github.com/matterbridge/logrus-prefixed-formatter v0.0.0-20180806162718-01618749af61
 	github.com/mattermost/mattermost-server v5.5.0+incompatible
+	github.com/mattn/go-runewidth v0.0.7 // indirect
+	github.com/mattn/godown v0.0.0-20180312012330-2e9e17e0ea51
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/mreiferson/go-httpclient v0.0.0-20160630210159-31f0106b4474 // indirect
 	github.com/mrexodia/wray v0.0.0-20160318003008-78a2c1f284ff // indirect
@@ -54,10 +56,12 @@ require (
 	github.com/stretchr/testify v1.4.0
 	github.com/technoweenie/multipartstreamer v1.0.1 // indirect
 	github.com/x-cray/logrus-prefixed-formatter v0.5.2 // indirect
+	github.com/yaegashi/msgraph.go v0.0.0-00010101000000-000000000000
 	github.com/zfjagann/golang-ring v0.0.0-20190304061218-d34796e0a6c2
 	golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586 // indirect
 	golang.org/x/image v0.0.0-20190902063713-cb417be4ba39
 	golang.org/x/net v0.0.0-20190813141303-74dc4d7220e7 // indirect
+	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 	golang.org/x/text v0.3.2 // indirect
 	gopkg.in/fsnotify.v1 v1.4.7 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
@@ -67,5 +71,7 @@ require (
 replace github.com/nlopes/slack v0.6.0 => github.com/matterbridge/slack v0.1.1-0.20191208194820-95190f11bfb6
 
 replace github.com/bwmarrin/discordgo v0.19.0 => github.com/matterbridge/discordgo v0.0.0-20191026232317-01823f4ebba4
+
+replace github.com/yaegashi/msgraph.go => github.com/matterbridge/msgraph.go v0.0.0-20191226214848-9e5d9c08a4e1
 
 go 1.13
